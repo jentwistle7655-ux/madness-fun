@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Game</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      overflow: hidden;
+    }
+
+    #game {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+
+<body>
+  <embed
+    id="game"
+    src="https://raw.githubusercontent.com/smdgames/mathgames66/main/madness-project-nexus-classic.swf"
+    type="application/x-shockwave-flash">
+  </embed>
+</body>
+</html>
